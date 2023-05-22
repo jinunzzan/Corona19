@@ -16,6 +16,7 @@
 		5939318B2A176F6000A8D528 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5939318A2A176F6000A8D528 /* Assets.xcassets */; };
 		5939318E2A176F6000A8D528 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5939318C2A176F6000A8D528 /* LaunchScreen.storyboard */; };
 		593931962A1B5AA400A8D528 /* CovidDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593931952A1B5AA400A8D528 /* CovidDetailViewController.swift */; };
+		593931982A1B5D6900A8D528 /* CityCovidOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 593931972A1B5D6900A8D528 /* CityCovidOverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		5939318D2A176F6000A8D528 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5939318F2A176F6000A8D528 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		593931952A1B5AA400A8D528 /* CovidDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovidDetailViewController.swift; sourceTree = "<group>"; };
+		593931972A1B5D6900A8D528 /* CityCovidOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCovidOverView.swift; sourceTree = "<group>"; };
 		DD052BA38713CC1FC45AFD9F /* Pods_Corona19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Corona19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -85,6 +87,7 @@
 				5939318F2A176F6000A8D528 /* Info.plist */,
 				593931872A176F5F00A8D528 /* Corona19.xcdatamodeld */,
 				593931952A1B5AA400A8D528 /* CovidDetailViewController.swift */,
+				593931972A1B5D6900A8D528 /* CityCovidOverView.swift */,
 			);
 			path = Corona19;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				593931832A176F5F00A8D528 /* ViewController.swift in Sources */,
+				593931982A1B5D6900A8D528 /* CityCovidOverView.swift in Sources */,
 				593931892A176F5F00A8D528 /* Corona19.xcdatamodeld in Sources */,
 				593931962A1B5AA400A8D528 /* CovidDetailViewController.swift in Sources */,
 				5939317F2A176F5F00A8D528 /* AppDelegate.swift in Sources */,
