@@ -300,6 +300,30 @@
             </objects>
             <point key="canvasLocation" x="-392" y="-119"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="mBE-2e-CTa">
+            <objects>
+                <viewController id="Bes-I5-1it" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uPr-dJ-n2R">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="api 불러오기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYO-Pc-un4">
+                                <rect key="frame" x="199" y="179" width="86" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="tM0-qU-Ssm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nkS-Ke-Edq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="737" y="-796"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
