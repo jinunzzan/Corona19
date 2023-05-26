@@ -68,6 +68,15 @@ class ViewController: UIViewController {
             )
         }
         let dataSet = PieChartDataSet(entries: entries, label: "코로나 발생 현황")
+        dataSet.sliceSpace = 1
+        dataSet.entryLabelColor = .black
+        dataSet.xValuePosition = .outsideSlice
+        dataSet.valueLinePart1Length = 0.2
+        dataSet.valueLinePart2Length = 0.3
+        
+        dataSet.colors = ChartColorTemplates.vordiplom() +
+        ChartColorTemplates.joyful() + ChartColorTemplates.liberty() + ChartColorTemplates.pastel() + ChartColorTemplates.material()
+        
         self.pieChartView.data = PieChartData(dataSet: dataSet)
 
     }
